@@ -31,3 +31,7 @@ MediaPipe Python on aarch64 (Raspberry Pi4 custom. experimental) - https://githu
 ![image](https://user-images.githubusercontent.com/8403172/118963515-780e2c00-b9a1-11eb-905f-fecb38e92259.png)
 
 다른방법을 생각해야될것같다
+
+opencv의 색상추출을 사용. 손가락을 몇개 폈는지 인식이 가능하다. (단, 손의 정면에서만 인식이 가능할것 같다)
+
+최대한 독립된 기기로써의 프로그래밍을 하기위해서 해당방법을 사용하는 방향으로 진행할것이다.
