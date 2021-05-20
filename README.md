@@ -23,3 +23,7 @@ MediaPipe Python on aarch64 (Raspberry Pi4 custom. experimental) - https://githu
 #setup과정에서시간이 너무오래걸림. 실패라고 판단. tf2 사용하였는데 tflite를 진행하는것보고 중단 결정.
 
 ![image](https://user-images.githubusercontent.com/8403172/118922646-5d25c280-b975-11eb-82be-68edb77ecde6.png)
+
+
+#4차시도. 한번 진행할때 마다마다  너무 시간이 오래걸려서 이번테스트까지만 해보고 방향성을 바꿔야할것 같다. (video를 받아와서 desktop에서 처리)
+#tensorflowlite + bazel + mediapipe(using custom aarch64 build) + opencv-python
