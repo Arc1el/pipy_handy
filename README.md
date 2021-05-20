@@ -27,3 +27,7 @@ MediaPipe Python on aarch64 (Raspberry Pi4 custom. experimental) - https://githu
 
 #4차시도. 한번 진행할때 마다마다  너무 시간이 오래걸려서 이번테스트까지만 해보고 방향성을 바꿔야할것 같다. (video를 받아와서 desktop에서 처리)
 #tensorflowlite + bazel + mediapipe(using custom aarch64 build) + opencv-python
+
+![image](https://user-images.githubusercontent.com/8403172/118963036-fcac7a80-b9a0-11eb-9711-71fe4063862d.png)
+
+다른방법을 생각해야될것같다
