@@ -2,8 +2,11 @@
 raspi 4b + openCV
 
 PINTO의 custom bazel, mediapipe 설치 - https://ahnsun98.tistory.com/6
-PINTO의 custom TensorflowV2 - https://github.com/PINTO0309/Tensorflow-bin/#usage:
+
+PINTO의 custom TensorflowV2 - https://github.com/PINTO0309/Tensorflow-bin/#usage
+
 MediaPipe in Python - https://google.github.io/mediapipe/getting_started/python.html
+
 MediaPipe Python on aarch64 (Raspberry Pi4 custom. experimental) - https://github.com/jiuqiant/mediapipe_python_aarch64
 
 
