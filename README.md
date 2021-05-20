@@ -13,4 +13,5 @@ raspi 4b + openCV
 #3차시도 tensorflow(cp37) + bazel 3.1.7 + medaipipe(using custom aarch64 build) + (opencv-contrib-python)
 #https://github.com/jiuqiant/mediapipe_python_aarch64
 #setup과정에서시간이 너무오래걸림. 실패라고 판단. tf2 사용하였는데 tflite를 진행하는것보고 중단 결정.
+
 #![image](https://user-images.githubusercontent.com/8403172/118922646-5d25c280-b975-11eb-82be-68edb77ecde6.png)
