@@ -41,3 +41,7 @@ opencv의 색상추출을 사용. 손가락을 몇개 폈는지 인식이 가능
 인식률이 좋지않다. 색상추출을 사용하기때문에 주변환경의 영향이 많다. yolov5를 사용하는쪽으로 생각해보아야겠다.
 
 yolov5로 작성된 모델 - https://drive.google.com/file/d/15F0N0VyCqBsnVosfSb6GOjn3oL7OlvHt/view?usp=sharing
+
+![image](https://user-images.githubusercontent.com/8403172/119111797-6179da80-ba5e-11eb-98c3-34bb202bb4a0.png)
+
+성능 한계때문에 적합하지 않다. pythorch를 사용하지않는 yolov3로 변경해서 진행해봐야겠다.
