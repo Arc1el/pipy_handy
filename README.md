@@ -35,3 +35,8 @@ MediaPipe Python on aarch64 (Raspberry Pi4 custom. experimental) - https://githu
 opencv의 색상추출을 사용. 손가락을 몇개 폈는지 인식이 가능하다. (단, 손의 정면에서만 인식이 가능할것 같다)
 
 최대한 독립된 기기로써의 프로그래밍을 하기위해서 해당방법을 사용하는 방향으로 진행할것이다.
+
+![image](https://user-images.githubusercontent.com/8403172/119071923-9cabe780-ba25-11eb-817c-3b182141c1d4.png)
+
+인식률이 좋지않다. 색상추출을 사용하기때문에 주변환경의 영향이 많다. yolov5를 사용하는쪽으로 생각해보아야겠다.
+
