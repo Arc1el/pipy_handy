@@ -40,3 +40,4 @@ opencv의 색상추출을 사용. 손가락을 몇개 폈는지 인식이 가능
 
 인식률이 좋지않다. 색상추출을 사용하기때문에 주변환경의 영향이 많다. yolov5를 사용하는쪽으로 생각해보아야겠다.
 
+yolov5로 작성된 모델 - https://drive.google.com/file/d/15F0N0VyCqBsnVosfSb6GOjn3oL7OlvHt/view?usp=sharing
