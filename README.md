@@ -45,3 +45,4 @@ yolov5로 작성된 모델 - https://drive.google.com/file/d/15F0N0VyCqBsnVosfSb
 ![image](https://user-images.githubusercontent.com/8403172/119111797-6179da80-ba5e-11eb-98c3-34bb202bb4a0.png)
 
 성능 한계때문에 적합하지 않다. pythorch를 사용하지않는 yolov3로 변경해서 진행해봐야겠다.
+yolo자체가 cpu로 빠른순간을 캐치하기가 힘들다. opencv만을 사용하기도 하였다.
