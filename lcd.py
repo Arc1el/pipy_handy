@@ -1,19 +1,15 @@
-from time import sleep
-from Adafruit_CharLCD import Adafruit_CharLCD
+import board
+import digitalio
+lcd_rs = digitalio.DigitalInOut(board.D26)
+lcd_en = digitalio.DigitalInOut(board.D19)
+lcd_d7 = digitalio.DigitalInOut(board.D22)
+lcd_d6 = digitalio.DigitalInOut(board.D5)
+lcd_d5 = digitalio.DigitalInOut(board.D6)
+lcd_d4 = digitalio.DigitalInOut(board.D13)
 
-#gpio핀설정
-lcd = Adafruit_CharLCD(rs=26, en=19,
-                       d4=13, d5=6, d6=5, d7=22,
-                       cols=16, lines=2)
-lcd.clear()
+lcd_columns = 16
+lcd_rows = 2
 
-lcd.message('테스트 입니다.')
-sleep(3)
-
-for x in range(0, 16):
-    lcd.move_right()
-    sleep(.1)
-sleep(3)
-for x in range(0, 16):
-    lcd.move_left()
-    sleep(.1)
+import adafruit_character_lcd.character_lcd as characterlcd
+lcd = characterlcd.Character_LCD_Mono(lcd_rs, lcd_en, lcd_d4, lcd_d5, lcd_d6, lcd_d7, lcd_columns, lcd_rows)
+lcd.message = "Hello\nCircuitPython!"
